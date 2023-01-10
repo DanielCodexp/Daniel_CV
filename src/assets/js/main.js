@@ -58,7 +58,7 @@
         });
         $(document).on('click', 'li, #filters', function() {
             $('#filters li').removeClass('active');
-            $(this).addClass('active');
+            $(this).addClass('active'); 
             var filterValue = $(this).attr('data-filter');
             $container.isotope({ filter: filterValue });
         });
